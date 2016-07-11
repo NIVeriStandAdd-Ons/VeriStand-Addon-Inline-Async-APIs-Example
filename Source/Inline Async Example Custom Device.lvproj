@@ -10,6 +10,7 @@
 		<Property Name="IOScan.Priority" Type="UInt">9</Property>
 		<Property Name="IOScan.ReportModeConflict" Type="Bool">true</Property>
 		<Property Name="IOScan.StartEngineOnDeploy" Type="Bool">false</Property>
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -20,8 +21,9 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Inline Async APIs" Type="Folder">
-			<Item Name="Data Access API.lvlib" Type="Library" URL="../Inline Async APIs/Data Access/Data Access API.lvlib"/>
 			<Item Name="VS Inline Async API.lvlib" Type="Library" URL="../Inline Async APIs/VS Inline Async API/VS Inline Async API.lvlib"/>
+			<Item Name="Data Access Engine.lvlib" Type="Library" URL="../Inline Async APIs/Data Access Engine/Data Access Engine.lvlib"/>
+			<Item Name="Data Access System Explorer.lvlib" Type="Library" URL="../Inline Async APIs/Data Access System Explorer/Data Access System Explorer.lvlib"/>
 		</Item>
 		<Item Name="NI VeriStand APIs" Type="Folder">
 			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Custom Device API.lvlib"/>
@@ -186,7 +188,7 @@
 				<Property Name="Source[4].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[4].type" Type="Str">Container</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Inline Async APIs/Data Access API.lvlib</Property>
+				<Property Name="Source[5].itemID" Type="Ref"></Property>
 				<Property Name="Source[5].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[5].type" Type="Str">Library</Property>
@@ -404,7 +406,7 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Data Access API.lvlib" Type="Library" URL="../Inline Async APIs/Data Access/Data Access API.lvlib"/>
+			<Item Name="Data Access Engine.lvlib" Type="Library" URL="../Inline Async APIs/Data Access Engine/Data Access Engine.lvlib"/>
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -644,10 +646,22 @@ DirectoryIndex index.htm
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Data Access API.lvlib" Type="Library" URL="../Inline Async APIs/Data Access/Data Access API.lvlib"/>
+			<Item Name="Async.Close.vi" Type="VI" URL="../Inline Async APIs/VS Inline Async API/Methods/Async.Close.vi"/>
+			<Item Name="Async.Initialize.vi" Type="VI" URL="../Inline Async APIs/VS Inline Async API/Methods/Async.Initialize.vi"/>
+			<Item Name="Async.Read Data from HW.vi" Type="VI" URL="../Inline Async APIs/VS Inline Async API/Methods/Async.Read Data from HW.vi"/>
+			<Item Name="Async.Start.vi" Type="VI" URL="../Inline Async APIs/VS Inline Async API/Methods/Async.Start.vi"/>
+			<Item Name="Data Access Engine.lvlib" Type="Library" URL="../Inline Async APIs/Data Access Engine/Data Access Engine.lvlib"/>
+			<Item Name="Data.Close.vi" Type="VI" URL="../Inline Async APIs/Data Access Engine/Methods/Data.Close.vi"/>
+			<Item Name="Data.Constructor.vi" Type="VI" URL="../Inline Async APIs/Data Access Engine/Methods/Data.Constructor.vi"/>
+			<Item Name="Data.Read Data from HW.vi" Type="VI" URL="../Inline Async APIs/Data Access Engine/Methods/Data.Read Data from HW.vi"/>
+			<Item Name="Data.Write Data to HW.vi" Type="VI" URL="../Inline Async APIs/Data Access Engine/Methods/Data.Write Data to HW.vi"/>
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Process.Report.vi" Type="VI" URL="../Inline Async APIs/VS Inline Async API/Process/Methods/Process.Report.vi"/>
+			<Item Name="Process.WaitonStart.vi" Type="VI" URL="../Inline Async APIs/VS Inline Async API/Process/Methods/Process.WaitonStart.vi"/>
+			<Item Name="Processes.Data.vi" Type="VI" URL="../Inline Async APIs/Data Access Engine/Methods/Processes.Data.vi"/>
+			<Item Name="Processes.Lookup.vi" Type="VI" URL="../Inline Async APIs/Data Access Engine/Methods/Processes.Lookup.vi"/>
 			<Item Name="VS Inline Async API.lvlib" Type="Library" URL="../Inline Async APIs/VS Inline Async API/VS Inline Async API.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
@@ -852,10 +866,22 @@ DirectoryIndex index.htm
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Data Access API.lvlib" Type="Library" URL="../Inline Async APIs/Data Access/Data Access API.lvlib"/>
+			<Item Name="Async.Close.vi" Type="VI" URL="../Inline Async APIs/VS Inline Async API/Methods/Async.Close.vi"/>
+			<Item Name="Async.Initialize.vi" Type="VI" URL="../Inline Async APIs/VS Inline Async API/Methods/Async.Initialize.vi"/>
+			<Item Name="Async.Read Data from HW.vi" Type="VI" URL="../Inline Async APIs/VS Inline Async API/Methods/Async.Read Data from HW.vi"/>
+			<Item Name="Async.Start.vi" Type="VI" URL="../Inline Async APIs/VS Inline Async API/Methods/Async.Start.vi"/>
+			<Item Name="Data Access Engine.lvlib" Type="Library" URL="../Inline Async APIs/Data Access Engine/Data Access Engine.lvlib"/>
+			<Item Name="Data.Close.vi" Type="VI" URL="../Inline Async APIs/Data Access Engine/Methods/Data.Close.vi"/>
+			<Item Name="Data.Constructor.vi" Type="VI" URL="../Inline Async APIs/Data Access Engine/Methods/Data.Constructor.vi"/>
+			<Item Name="Data.Read Data from HW.vi" Type="VI" URL="../Inline Async APIs/Data Access Engine/Methods/Data.Read Data from HW.vi"/>
+			<Item Name="Data.Write Data to HW.vi" Type="VI" URL="../Inline Async APIs/Data Access Engine/Methods/Data.Write Data to HW.vi"/>
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Process.Report.vi" Type="VI" URL="../Inline Async APIs/VS Inline Async API/Process/Methods/Process.Report.vi"/>
+			<Item Name="Process.WaitonStart.vi" Type="VI" URL="../Inline Async APIs/VS Inline Async API/Process/Methods/Process.WaitonStart.vi"/>
+			<Item Name="Processes.Data.vi" Type="VI" URL="../Inline Async APIs/Data Access Engine/Methods/Processes.Data.vi"/>
+			<Item Name="Processes.Lookup.vi" Type="VI" URL="../Inline Async APIs/Data Access Engine/Methods/Processes.Lookup.vi"/>
 			<Item Name="VS Inline Async API.lvlib" Type="Library" URL="../Inline Async APIs/VS Inline Async API/VS Inline Async API.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
@@ -1061,7 +1087,7 @@ DirectoryIndex index.htm
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Data Access API.lvlib" Type="Library" URL="../Inline Async APIs/Data Access/Data Access API.lvlib"/>
+			<Item Name="Data Access Engine.lvlib" Type="Library" URL="../Inline Async APIs/Data Access Engine/Data Access Engine.lvlib"/>
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
