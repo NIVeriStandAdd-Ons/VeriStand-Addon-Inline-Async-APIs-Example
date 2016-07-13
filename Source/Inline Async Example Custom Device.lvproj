@@ -189,7 +189,7 @@
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Inline Async Example Engine.lvlib/Engine</Property>
+				<Property Name="Source[2].itemID" Type="Ref"></Property>
 				<Property Name="Source[2].properties[0].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[2].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[2].properties[1].type" Type="Str">Allow debugging</Property>
@@ -332,35 +332,9 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Async.Engine.Close.vi" Type="VI" URL="../Inline Async APIs/VS Inline Async API/Methods/Async.Engine.Close.vi"/>
-			<Item Name="Async.Engine.Initialize.vi" Type="VI" URL="../Inline Async APIs/VS Inline Async API/Methods/Async.Engine.Initialize.vi"/>
-			<Item Name="Async.Engine.Read Data from HW.vi" Type="VI" URL="../Inline Async APIs/VS Inline Async API/Methods/Async.Engine.Read Data from HW.vi"/>
-			<Item Name="Async.Engine.Start.vi" Type="VI" URL="../Inline Async APIs/VS Inline Async API/Methods/Async.Engine.Start.vi"/>
-			<Item Name="Data Access Engine.ctl" Type="VI" URL="../Inline Async APIs/Data Access Engine/Data Access Engine.lvclass/Data Access Engine.ctl"/>
-			<Item Name="Data Access Engine.lvclass" Type="LVClass" URL="../Inline Async APIs/Data Access Engine/Data Access Engine.lvclass"/>
-			<Item Name="Data.Engine.Close.vi" Type="VI" URL="../Inline Async APIs/Data Access Engine/Methods/Data.Engine.Close.vi"/>
-			<Item Name="Data.Engine.Initialize.vi" Type="VI" URL="../Inline Async APIs/Data Access Engine/Methods/Data.Engine.Initialize.vi"/>
-			<Item Name="Data.Engine.Read Data from HW.vi" Type="VI" URL="../Inline Async APIs/Data Access Engine/Methods/Data.Engine.Read Data from HW.vi"/>
-			<Item Name="Data.Engine.Write Data to HW.vi" Type="VI" URL="../Inline Async APIs/Data Access Engine/Methods/Data.Engine.Write Data to HW.vi"/>
-			<Item Name="Data.Processes.Execute.vi" Type="VI" URL="../Inline Async APIs/Data Access Engine/Methods/Data.Processes.Execute.vi"/>
-			<Item Name="Data.Processes.Lookup.vi" Type="VI" URL="../Inline Async APIs/Data Access Engine/Methods/Data.Processes.Lookup.vi"/>
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Read.ctl" Type="VI" URL="../Inline Async APIs/Data Access Engine/Data/Read/Read.lvclass/Read.ctl"/>
-			<Item Name="Read.Data.vi" Type="VI" URL="../Inline Async APIs/Data Access Engine/Methods/Read.Data.vi"/>
-			<Item Name="Read.EngineData.vi" Type="VI" URL="../Inline Async APIs/Data Access Engine/Data/Read/Read.EngineData.vi"/>
-			<Item Name="Read.Lookup.vi" Type="VI" URL="../Inline Async APIs/Data Access Engine/Methods/Read.Lookup.vi"/>
-			<Item Name="Read.ProcessData.vi" Type="VI" URL="../Inline Async APIs/Data Access Engine/Data/Read/Read.ProcessData.vi"/>
-			<Item Name="ReadWrite.ctl" Type="VI" URL="../Inline Async APIs/Data Access Engine/Data/ReadWrite/ReadWrite.lvclass/ReadWrite.ctl"/>
-			<Item Name="ReadWrite.EngineData.vi" Type="VI" URL="../Inline Async APIs/Data Access Engine/Data/ReadWrite/ReadWrite.EngineData.vi"/>
-			<Item Name="VS Inline Async API.ctl" Type="VI" URL="../Inline Async APIs/VS Inline Async API/VS Inline Async API.lvclass/VS Inline Async API.ctl"/>
-			<Item Name="VS Inline Async API.lvclass" Type="LVClass" URL="../Inline Async APIs/VS Inline Async API/VS Inline Async API.lvclass"/>
-			<Item Name="Write.ctl" Type="VI" URL="../Inline Async APIs/Data Access Engine/Data/Write/Write.lvclass/Write.ctl"/>
-			<Item Name="Write.Data.vi" Type="VI" URL="../Inline Async APIs/Data Access Engine/Methods/Write.Data.vi"/>
-			<Item Name="Write.EngineData.vi" Type="VI" URL="../Inline Async APIs/Data Access Engine/Data/Write/Write.EngineData.vi"/>
-			<Item Name="Write.Lookup.vi" Type="VI" URL="../Inline Async APIs/Data Access Engine/Methods/Write.Lookup.vi"/>
-			<Item Name="Write.ProcessData.vi" Type="VI" URL="../Inline Async APIs/Data Access Engine/Data/Write/Write.ProcessData.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Engine Release" Type="Source Distribution">
@@ -412,7 +386,7 @@
 				<Property Name="Source[2].type" Type="Str">Container</Property>
 				<Property Name="Source[3].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/RT PXI Target/Inline Async Example Engine.lvlib/Engine</Property>
+				<Property Name="Source[3].itemID" Type="Ref"></Property>
 				<Property Name="Source[3].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[3].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[3].properties[1].type" Type="Str">Remove block diagram</Property>
@@ -573,35 +547,9 @@ DirectoryIndex index.htm
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Async.Engine.Close.vi" Type="VI" URL="../Inline Async APIs/VS Inline Async API/Methods/Async.Engine.Close.vi"/>
-			<Item Name="Async.Engine.Initialize.vi" Type="VI" URL="../Inline Async APIs/VS Inline Async API/Methods/Async.Engine.Initialize.vi"/>
-			<Item Name="Async.Engine.Read Data from HW.vi" Type="VI" URL="../Inline Async APIs/VS Inline Async API/Methods/Async.Engine.Read Data from HW.vi"/>
-			<Item Name="Async.Engine.Start.vi" Type="VI" URL="../Inline Async APIs/VS Inline Async API/Methods/Async.Engine.Start.vi"/>
-			<Item Name="Data Access Engine.ctl" Type="VI" URL="../Inline Async APIs/Data Access Engine/Data Access Engine.lvclass/Data Access Engine.ctl"/>
-			<Item Name="Data Access Engine.lvclass" Type="LVClass" URL="../Inline Async APIs/Data Access Engine/Data Access Engine.lvclass"/>
-			<Item Name="Data.Engine.Close.vi" Type="VI" URL="../Inline Async APIs/Data Access Engine/Methods/Data.Engine.Close.vi"/>
-			<Item Name="Data.Engine.Initialize.vi" Type="VI" URL="../Inline Async APIs/Data Access Engine/Methods/Data.Engine.Initialize.vi"/>
-			<Item Name="Data.Engine.Read Data from HW.vi" Type="VI" URL="../Inline Async APIs/Data Access Engine/Methods/Data.Engine.Read Data from HW.vi"/>
-			<Item Name="Data.Engine.Write Data to HW.vi" Type="VI" URL="../Inline Async APIs/Data Access Engine/Methods/Data.Engine.Write Data to HW.vi"/>
-			<Item Name="Data.Processes.Execute.vi" Type="VI" URL="../Inline Async APIs/Data Access Engine/Methods/Data.Processes.Execute.vi"/>
-			<Item Name="Data.Processes.Lookup.vi" Type="VI" URL="../Inline Async APIs/Data Access Engine/Methods/Data.Processes.Lookup.vi"/>
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Read.ctl" Type="VI" URL="../Inline Async APIs/Data Access Engine/Data/Read/Read.lvclass/Read.ctl"/>
-			<Item Name="Read.Data.vi" Type="VI" URL="../Inline Async APIs/Data Access Engine/Methods/Read.Data.vi"/>
-			<Item Name="Read.EngineData.vi" Type="VI" URL="../Inline Async APIs/Data Access Engine/Data/Read/Read.EngineData.vi"/>
-			<Item Name="Read.Lookup.vi" Type="VI" URL="../Inline Async APIs/Data Access Engine/Methods/Read.Lookup.vi"/>
-			<Item Name="Read.ProcessData.vi" Type="VI" URL="../Inline Async APIs/Data Access Engine/Data/Read/Read.ProcessData.vi"/>
-			<Item Name="ReadWrite.ctl" Type="VI" URL="../Inline Async APIs/Data Access Engine/Data/ReadWrite/ReadWrite.lvclass/ReadWrite.ctl"/>
-			<Item Name="ReadWrite.EngineData.vi" Type="VI" URL="../Inline Async APIs/Data Access Engine/Data/ReadWrite/ReadWrite.EngineData.vi"/>
-			<Item Name="VS Inline Async API.ctl" Type="VI" URL="../Inline Async APIs/VS Inline Async API/VS Inline Async API.lvclass/VS Inline Async API.ctl"/>
-			<Item Name="VS Inline Async API.lvclass" Type="LVClass" URL="../Inline Async APIs/VS Inline Async API/VS Inline Async API.lvclass"/>
-			<Item Name="Write.ctl" Type="VI" URL="../Inline Async APIs/Data Access Engine/Data/Write/Write.lvclass/Write.ctl"/>
-			<Item Name="Write.Data.vi" Type="VI" URL="../Inline Async APIs/Data Access Engine/Methods/Write.Data.vi"/>
-			<Item Name="Write.EngineData.vi" Type="VI" URL="../Inline Async APIs/Data Access Engine/Data/Write/Write.EngineData.vi"/>
-			<Item Name="Write.Lookup.vi" Type="VI" URL="../Inline Async APIs/Data Access Engine/Methods/Write.Lookup.vi"/>
-			<Item Name="Write.ProcessData.vi" Type="VI" URL="../Inline Async APIs/Data Access Engine/Data/Write/Write.ProcessData.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Engine Release" Type="Source Distribution">
@@ -653,7 +601,7 @@ DirectoryIndex index.htm
 				<Property Name="Source[2].type" Type="Str">Container</Property>
 				<Property Name="Source[3].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/RT CompactRIO Target/Inline Async Example Engine.lvlib/Engine</Property>
+				<Property Name="Source[3].itemID" Type="Ref"></Property>
 				<Property Name="Source[3].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[3].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[3].properties[1].type" Type="Str">Remove block diagram</Property>
@@ -782,35 +730,9 @@ DirectoryIndex index.htm
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Async.Engine.Close.vi" Type="VI" URL="../Inline Async APIs/VS Inline Async API/Methods/Async.Engine.Close.vi"/>
-			<Item Name="Async.Engine.Initialize.vi" Type="VI" URL="../Inline Async APIs/VS Inline Async API/Methods/Async.Engine.Initialize.vi"/>
-			<Item Name="Async.Engine.Read Data from HW.vi" Type="VI" URL="../Inline Async APIs/VS Inline Async API/Methods/Async.Engine.Read Data from HW.vi"/>
-			<Item Name="Async.Engine.Start.vi" Type="VI" URL="../Inline Async APIs/VS Inline Async API/Methods/Async.Engine.Start.vi"/>
-			<Item Name="Data Access Engine.ctl" Type="VI" URL="../Inline Async APIs/Data Access Engine/Data Access Engine.lvclass/Data Access Engine.ctl"/>
-			<Item Name="Data Access Engine.lvclass" Type="LVClass" URL="../Inline Async APIs/Data Access Engine/Data Access Engine.lvclass"/>
-			<Item Name="Data.Engine.Close.vi" Type="VI" URL="../Inline Async APIs/Data Access Engine/Methods/Data.Engine.Close.vi"/>
-			<Item Name="Data.Engine.Initialize.vi" Type="VI" URL="../Inline Async APIs/Data Access Engine/Methods/Data.Engine.Initialize.vi"/>
-			<Item Name="Data.Engine.Read Data from HW.vi" Type="VI" URL="../Inline Async APIs/Data Access Engine/Methods/Data.Engine.Read Data from HW.vi"/>
-			<Item Name="Data.Engine.Write Data to HW.vi" Type="VI" URL="../Inline Async APIs/Data Access Engine/Methods/Data.Engine.Write Data to HW.vi"/>
-			<Item Name="Data.Processes.Execute.vi" Type="VI" URL="../Inline Async APIs/Data Access Engine/Methods/Data.Processes.Execute.vi"/>
-			<Item Name="Data.Processes.Lookup.vi" Type="VI" URL="../Inline Async APIs/Data Access Engine/Methods/Data.Processes.Lookup.vi"/>
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Read.ctl" Type="VI" URL="../Inline Async APIs/Data Access Engine/Data/Read/Read.lvclass/Read.ctl"/>
-			<Item Name="Read.Data.vi" Type="VI" URL="../Inline Async APIs/Data Access Engine/Methods/Read.Data.vi"/>
-			<Item Name="Read.EngineData.vi" Type="VI" URL="../Inline Async APIs/Data Access Engine/Data/Read/Read.EngineData.vi"/>
-			<Item Name="Read.Lookup.vi" Type="VI" URL="../Inline Async APIs/Data Access Engine/Methods/Read.Lookup.vi"/>
-			<Item Name="Read.ProcessData.vi" Type="VI" URL="../Inline Async APIs/Data Access Engine/Data/Read/Read.ProcessData.vi"/>
-			<Item Name="ReadWrite.ctl" Type="VI" URL="../Inline Async APIs/Data Access Engine/Data/ReadWrite/ReadWrite.lvclass/ReadWrite.ctl"/>
-			<Item Name="ReadWrite.EngineData.vi" Type="VI" URL="../Inline Async APIs/Data Access Engine/Data/ReadWrite/ReadWrite.EngineData.vi"/>
-			<Item Name="VS Inline Async API.ctl" Type="VI" URL="../Inline Async APIs/VS Inline Async API/VS Inline Async API.lvclass/VS Inline Async API.ctl"/>
-			<Item Name="VS Inline Async API.lvclass" Type="LVClass" URL="../Inline Async APIs/VS Inline Async API/VS Inline Async API.lvclass"/>
-			<Item Name="Write.ctl" Type="VI" URL="../Inline Async APIs/Data Access Engine/Data/Write/Write.lvclass/Write.ctl"/>
-			<Item Name="Write.Data.vi" Type="VI" URL="../Inline Async APIs/Data Access Engine/Methods/Write.Data.vi"/>
-			<Item Name="Write.EngineData.vi" Type="VI" URL="../Inline Async APIs/Data Access Engine/Data/Write/Write.EngineData.vi"/>
-			<Item Name="Write.Lookup.vi" Type="VI" URL="../Inline Async APIs/Data Access Engine/Methods/Write.Lookup.vi"/>
-			<Item Name="Write.ProcessData.vi" Type="VI" URL="../Inline Async APIs/Data Access Engine/Data/Write/Write.ProcessData.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Engine Release" Type="Source Distribution">
@@ -862,7 +784,7 @@ DirectoryIndex index.htm
 				<Property Name="Source[2].type" Type="Str">Container</Property>
 				<Property Name="Source[3].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/RT CompactRIO Target - Linux ARM/Inline Async Example Engine.lvlib/Engine</Property>
+				<Property Name="Source[3].itemID" Type="Ref"></Property>
 				<Property Name="Source[3].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[3].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[3].properties[1].type" Type="Str">Remove block diagram</Property>
@@ -1046,7 +968,7 @@ DirectoryIndex index.htm
 				<Property Name="Source[2].type" Type="Str">Container</Property>
 				<Property Name="Source[3].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/RT CompactRIO Target - Linux x64/Inline Async Example Engine.lvlib/Engine</Property>
+				<Property Name="Source[3].itemID" Type="Ref"></Property>
 				<Property Name="Source[3].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[3].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[3].properties[1].type" Type="Str">Remove block diagram</Property>
