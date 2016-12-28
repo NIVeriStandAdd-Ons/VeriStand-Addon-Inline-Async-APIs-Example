@@ -1,6 +1,6 @@
 # Inline-Async-Example#
 
-The **Inline Async Example** shows how to use the Inline Async API (https://github.com/NIVeriStandAdd-Ons/Inline-Async-API).
+The **Inline Async Example** shows how to use the VeriStand Addon Inline Async API.
 
 ### LabVIEW Version ###
 
@@ -18,7 +18,7 @@ IP has been tested by developer. It meets VeriStand addon coding best practices.
 
 NI Veristand 2015
 
-Inline Async API (https://github.com/NIVeriStandAdd-Ons/Inline-Async-API)
+VeriStand Addon Inline Async API (https://github.com/NIVeriStandAdd-Ons/VeriStand-Addon-Inline-Async-API)
 
 ### License ###
 
